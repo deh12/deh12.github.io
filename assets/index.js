@@ -4,9 +4,9 @@ const imagem = document.querySelector("#sonic1");
 
 botao.addEventListener('click', function() {
     if (titulo.innerHTML == "Sonic") {
-        imagem.src = "./assets/img/shadow.gif"; width = 200; 
-        titulo.innerHTML = "Shadow Sonic" 
-} else if (titulo.innerHTML == "Shadow Sonic") {
+        imagem.src = "./assets/img/dark.gif"; width = 200; 
+        titulo.innerHTML = "Dark Sonic" 
+} else if (titulo.innerHTML == "Dark Sonic") {
     imagem.src = "./assets/img/super.gif"; width = 200; 
     titulo.innerHTML = "Super Sonic" 
 } else if (titulo.innerHTML == "Super Sonic") {
